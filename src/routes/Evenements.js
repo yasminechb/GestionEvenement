@@ -15,12 +15,12 @@ function Evenements(props) {
       url="/"
       btnClass = "hide"
       />
-      <h1>nom de l'event{props.name}</h1>
+      <h1>nom de l'event {props.name}</h1>
       <Footer/>
          
         
         </>
     )
-    }
+  }
     
-    export default  Evenements; 
+export default  Evenements; 
